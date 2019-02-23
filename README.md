@@ -4,8 +4,7 @@
 
 # GLUG PACE Easter Egg [Website](https://viz38.github.io/test/)🚀
 
-GLUG PACE is a group of people who works for FOSS. This project is the Official website for the GLUG PACE Community.
-Find out more information at [glugpace](https://github.com/GLUG-PACE/).
+GLUG PACE Easter egg is a exactly what the name suggests, an easter egg hidden in the GLUG PACE website.
 
 ## About 
 
