@@ -1,5 +1,5 @@
 ﻿<p align="center"> 
-    <img src="images/logo.png" alt="GlugPace Logo" width="200px" height="200px"/>
+    <img src="images/devfavic.png" alt="GlugPace Logo" width="200px" height="200px"/>
  </p>
 
 # GLUG PACE Easter Egg [Website](https://viz38.github.io/test/)🚀
