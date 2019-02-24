@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin|Lato');
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: #7fff00;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 3em;
+  font-weight: 200;
+  width: 100%;
+  margin-top: 120px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-transform: translate3d(0,0,0);
+  -moz-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+  opacity: 0;
+  -webkit-animation: anim 3.2s ease-out forwards 1s;
+  animation: anim 3.2s ease-out forwards 1s;
+}
+strong {
+  display: block;
+  font-weight: 500;
+}
+
+@-webkit-keyframes anim {
+  0% {
+    text-shadow: 0 0 50px #fff;
+    letter-spacing: 80px;
+    opacity: 0;
+    -webkit-transform: rotateY(-90deg);
+  }
+  50% {
+    text-shadow: 0 0 1px #fff;
+    opacity: 0.8;
+    -webkit-transform: rotateY(0deg);
+  }
+  75% {
+    text-shadow: 0 0 1px #fff;
+    opacity: 0.8;
+    -webkit-transform: rotateY(0deg) translateZ(60px);
+  }
+  100% {
+    text-shadow: 0 0 1px #fff;
+    opacity: 0.8;
+    letter-spacing: 8px;
+    -webkit-transform: rotateY(0deg) translateZ(100px);
+  }
+
+}
+@keyframes anim {
+  0% {
+    text-shadow: 0 0 50px #fff;
+    letter-spacing: 80px;
+    opacity: 0;
+    -moz-transform: rotateY(-90deg);
+  }
+  50% {
+    text-shadow: 0 0 1px #fff;
+    opacity: 0.8;
+    -moz-transform: rotateY(0deg);
+  }
+  75% {
+    text-shadow: 0 0 1px #fff;
+    opacity: 0.8;
+    -moz-transform: rotateY(0deg) translateZ(60px);
+  }
+  100% {
+    text-shadow: 0 0 1px #fff;
+    opacity: 0.8;
+    letter-spacing: 8px;
+    -moz-transform: rotateY(0deg) translateZ(100px);
+  }
+}
+
+
+button {
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 13px 30px;
+
+    color: white;
+    background-image: linear-gradient(to right top, #7fff00, #76e407, #6ace06, #54a007, #67c40a);
+    box-shadow: 
+      0 0 0px #000,
+      0 0 40px #7fff00,
+      0 0 800px #67c40a;
+    cursor: pointer;
+    font-family: sans-serif;
+    
+    font-size: 22x;
+    font-weight: bold;
+    letter-spacing: 1px;
+    
+    transition: 300ms;
+    animation-delay: 4s;
+    animation: btn 0s 5s forwards;
+    visibility: hidden;
+    white-space: nowrap;
+  }
+  
+  button:hover {
+    padding: 22px 35px; 
+    
+    background-image: linear-gradient(to left bottom, #f7204b, #f72843, #f7303a, #f63831, #f43f27);
+    box-shadow: 
+      0 0 20px #000,
+      0 0 40px #F43F27,
+      0 0 800px #F27160;
+  }
+
+  @keyframes btn {
+    to   { visibility: visible; }
+  }
+
+  #welcomeDiv {
+      margin-top: 20px;
+      margin-left: 30px;
+      margin-right: 30px;
+      border: 2px dotted #fff;
+      padding: 1em 1em 30px 1em;
+  }
+
+  .next-link {
+    color: white;
+    background-image: linear-gradient(to right top, #7fff00, #76e407, #6ace06, #54a007, #67c40a);
+    box-shadow: 
+      0 0 0px #000,
+      0 0 60px #7fff00,
+      0 0 1000px #67c40a;
+      padding: 13px 14px;
+
+      margin-top: 10px;
+      border-radius: 5px;
+      transition: 300ms;
+  }
+
+  .next-link:hover {
+    background-image: linear-gradient(to left bottom, #f7204b, #f72843, #f7303a, #f63831, #f43f27);
+    box-shadow: 
+      0 0 20px #000,
+      0 0 40px #F43F27,
+      0 0 800px #F27160;
+      white-space: nowrap;
+  }
