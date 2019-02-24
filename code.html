@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Level 2</title>   
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <h1>Welcome back <strong>HACKER!</strong></h1>
+    <button id="btn" onclick="clickme()">Next Clue</button>
+
+    <audio id="sound1" src="code.wav" preload="auto"></audio>
+  
+    <h2 id="demo"></h2>
+    <script>
+        var i = 0;
+        var txt = '-... .. - .-.-.- .-.. -.-- -..-. --. .-.. ..- --. -- --- .-. ... .';
+        var speed = 500;
+
+        function clickme() {
+        document.getElementById('btn').style.display='none';
+        if (i < txt.length) {
+            document.getElementById("demo").innerHTML += txt.charAt(i);
+            i++;
+            setTimeout(clickme, speed);
+        }
+        document.getElementById('sound1').play();
+        }
+    </script>
+</body>
+</html>
