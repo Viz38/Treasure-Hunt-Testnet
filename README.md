@@ -3,6 +3,7 @@
  </p>
 
 # GLUG PACE Easter Egg [Website](https://viz38.github.io/test/)🚀
+## [START HERE](https://glug-pace.github.io/events/tech-treasure-hunt/)
 
 GLUG PACE Easter egg is a exactly what the name suggests, an easter egg hidden in the GLUG PACE website.
 
